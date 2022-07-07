@@ -8,40 +8,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a>
-          <img src="" alt="Logo" />
-          <span>Favoritos</spanid=>
-        </a>
-      </nav>
-    </header>
-    <main>
-      <label class="label-nomeurl" for="nomeUrl">Nome e URL do Site</label>
-      <input class="input-nomeurl" type="text" id="nomeURL" placeholder="Digite o nome e a url separados por vírgula">
-      <button class="btn-salvar">Salvar</button>
-      <h1 class="h1-list">Lista de Favoritos</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Sites</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Google</td>
-            <td>Remover</td>
-          </tr>
-          <tr>
-            <td>UOL</td>
-            <td>Remover</td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-    <footer>
-      &copy; 2022 - <p>Feito com ❤ pelo Aluízio</p>
-    </footer>
+    <div class="container">
+      <header>
+        <nav>
+          <a>
+            <img src="./logo.png" alt="Logo" />
+            <!-- <h2>Favoritos</h2> -->
+          </a>
+        </nav>
+      </header>
+      <main>
+        <label class="label-nomeurl" for="nomeUrl">Nome e URL do Site</label>
+        <input class="input-nomeurl" type="text" id="nomeURL" placeholder="Digite o nome e a url separados por vírgula">
+        <button class="btn-salvar">Salvar</button>
+        <h1 class="h1-list">Lista de Favoritos</h1>
+        <ul>
+          <li>
+            <a class="site" href="www.google.com.br">Google</a>
+            <button>Excluir</button>
+          </li>
+          <li><a class="site" href="www.uol.com.br">UOL</a></li>
+        </ul>
+        <p>Adicione e remova seus sites favoritos com somente um click. Nunca mais esqueça seus sites favoritos.</p>
+        <p>Preencha o campo com o nome do site e a url, separados por vírgula, depois clique em salvar.</p>        
+      </main>
+      <footer>
+        <h4>Feito com ❤ pelo Aluízio</h4>
+      </footer>
+    </div>
   </body>
 </html>
