@@ -1,53 +1,94 @@
-<!-- As orientaçções são: amarelo -> logo, laranja -> nome da aplicação, vermelho/rosa -> menu, preto -> footer, azul e cinza -> corpo  -->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Favoritos</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Div do conteúdo da página inteira -->
-    <div class="container">
-      <header>
-        <nav>
-          <a>
-            <img src="./logo.png" alt="Logo" />
-            <!-- <h2>Favoritos</h2> -->
-          </a>
-        </nav>
-      </header>
-      <main>
-        <label class="label-nomeurl" for="nomeUrl">Nome e URL do Site</label>
-        <input
-          class="input-nomeurl"
-          type="text"
-          id="nomeURL"
-          placeholder="Digite o nome e a url separados por vírgula"
-        />
-        <button class="btn-salvar">Salvar</button>
-        <h1 class="h1-list">Lista de Favoritos</h1>
-        <ul>
-          <li>
-            <a class="site" href="www.google.com.br">Google</a>
-          </li>
-          <li><a class="site" href="www.uol.com.br">UOL</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Favoritos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div>
+        <img src="img/LogoFavs.png" alt="Logo Meus Favoritos" width="200px" />
+      </div>
+      <div>
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Cadastrar</a></li>
         </ul>
-        <p>
-          Adicione e remova seus sites favoritos com somente um click. Nunca
-          mais esqueça seus sites favoritos.
-        </p>
-        <p>
-          Preencha o campo com o nome do site e a url, separados por vírgula,
-          depois clique em salvar.
-        </p>
-      </main>
-      <footer>
-        <h4>Feito com ❤ pelo Aluízio</h4>
-      </footer>
+      </div>
     </div>
-  </body>
+  </header>
+  <section>
+    <div class="content">      
+      <div class="formulario">
+        <p class="add-favoritos">Adicionar Favoritos</p>
+        <form>
+          <label for="site">Nome,URL</label>
+          <input type="text" id="site" class="input-form" placeholder="Digite o Nome do Site e a URL separados por vírgula">
+          <button class="button-enviar">Enviar</button>
+        </form>
+      </div>
+      <div class="favoritos">
+        <p class="meus-favoritos">Meus Favoritos</p>
+        <lu class="favoritos-list">
+          <li><a href="https://wwww.google.com">Google</a></li>
+          <li><a href="https://wwww.github.com">Github</a></li>
+          <li><a href="https://wwww.globoesporte.com">Globo Esporte</a></li>
+          <li><a href="https://wwww.stackoverflow.com">Stackoverflow</a></li>
+        </lu>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="cards">
+      <div class="card-item">
+        <div>
+          <img src="img/foneAnuncie.png" alt="Foto Exemplo" width="100%">
+        </div>
+        <div>
+          <p>Coloque seu anúncio aqui. E intensifique suas vendas.</p>
+        </div>
+        <div class="card-link">
+          <a href="#">Contratar</a>
+        </div>
+      </div>
+      <div class="card-item">
+        <div>
+          <img src="img/anuncie-conosco.png" alt="Foto Exemplo" width="100%">
+        </div>
+        <div>
+          <p>Faça seu anúncio ser visto por mais pessoas.</p>
+        </div>
+        <div class="card-link">
+          <a href="#">Contratar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="footer">
+      <div class="mapa-site">
+        <ul class="mapa-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Cadastrar</a></li>
+        </ul>
+      </div>
+      <div class="contatos">
+        <ul class="contatos-list">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">(68) 99999-3566</a></li>
+          <li><a href="#">email@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
 </html>

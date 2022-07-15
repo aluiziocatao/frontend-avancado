@@ -1,107 +1,171 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body{
-  background-color: #EDF2FF;
-  color: #111111;
+  margin: 0;
 }
 
-a.site{
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: darkgray;
+  align-items: center;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-menu a {
+  font-size: 18px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-.label-nomeurl{
-  font-weight: bold;
-  font-size: 1.5rem;
+.nav-menu a:hover{
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  transition: .2s;
+}
+
+/* Cards */
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: space-around; 
+  gap: 50px;
+}
+
+.card-item{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-link{
+  display: flex;
+  justify-content: center;
+}
+
+/* Content */
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.meus-favoritos, .add-favoritos{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.favoritos a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.favoritos li{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 15px;
+}
+.favoritos a:hover{
+  color: yellow;
+  background-color: black;
+  transition: .2s;
+}
+
+.favoritos-list{
+  display: flex;
+  flex-direction: row;
+}
+
+label{
+  display: block;
+  padding: 0 0 10px 0px;
+}
+
+.input-form{
+  width: 100%;
   margin-bottom: 10px;
 }
 
-.input-nomeurl{
-  border-radius: 50px;
+.button-enviar{
+  background-color: greenyellow;
   border: none;
-  width: 100%;
-  padding: 5%;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: .2s;
 }
 
-.btn-salvar{
-  border-radius: 20px;
-  padding: 10px;
-  border: none;
-  background-color: #20c997;
-  transition: 0.4s;
-  margin-bottom: 15px;
-  width: 100%;
+.button-enviar:hover{
+  background-color: green;
   color: white;
-  font-size: 16px;
-}
-
-.btn-salvar:hover{
-  background-color: #42ba96;
   cursor: pointer;
 }
 
-.container{
-  text-align: center;
-  width: 300px;
-  margin: 60px auto;
-}
+/* Footer */
 
-img{
-  width: 100%;
-  width: 200px;
-  padding: 3.7px;
-}
-
-h2{
-  margin-top: 24px;
-  margin-bottom: 8px;
-  font-size: 32px;
-}
-
-ul{
-  list-style: none;
-  margin: 18px 0;
-}
-
-ul li {
+.footer{
+  background-color: beige;
+  margin-top: 150px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  background-color: #4263EB;
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 5px;
-
-  margin-bottom: 16px;
-  border-radius: 6px;
-
-  transition: background-color 400ms;
 }
 
-p{
-  font-weight: 400;
+.mapa-list{
+  list-style: none;
+  display: flex;
+  gap: 15px;
   font-size: 18px;
-  opacity: 0.8;
-  margin-bottom: 15px;
-  text-align: justify;
-  width: 100%;
+  font-weight: 800;
 }
 
-footer{
-  margin-top: 50px;
-  font-weight: 500;
-  font-size: 12px;
-  opacity: 0.6;
-  transition: opacity 400ms;
+.contatos-list{
+  list-style: none;
+  line-height: 25px;
 }
 
-footer:hover{
-  opacity: 1;
+.mapa-list a, .contatos-list a{
+  color: black;
+  text-decoration: none;
+}
+
+.mapa-list a:hover, .contatos-list a:hover{
+  color: blueviolet;
+}
+
+/* Breakpoints  */
+
+@media (max-width: 480px) {
+  .navbar{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .nav-menu{
+    padding: 0;
+  }
+
+  .content{
+    justify-content: center;
+  }
+
+  .favoritos-list{
+    display: flex;
+    flex-direction: column;
+  }
 }
