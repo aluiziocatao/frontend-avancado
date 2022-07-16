@@ -2,10 +2,10 @@
 
 ## Programação Avançada Frontend
 
-![GitHub repo size](https://img.shields.io/github/repo-size/aluiziocatao/progamacao-avancada-backend?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/aluiziocatao/progamacao-avancada-backend?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/aluiziocatao/progamacao-avancada-backend?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/aluiziocatao/progamacao-avancada-backend?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/aluiziocatao/frontend-avancado?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/aluiziocatao/frontend-avancado?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/aluiziocatao/frontend-avancado?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/aluiziocatao/frontend-avancado?style=for-the-badge)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
