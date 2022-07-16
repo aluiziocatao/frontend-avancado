@@ -14,11 +14,11 @@
 ### Esse repositório faz parte da disciplina de programação avanaçada frontend com foco em HTML, CSS e Bootstrap.
 
 <p align="justify">
-    Aprendemos nessa disciplina assuntos como: <samp>variáveis, objetos literais, desestruturação de dados, array, objetos, listas, estruturas, métodos, orientação a objetos, DOM, manipulação do DOM, herança, encapsulamento, clousure, eventos, promises, callbacks,</samp> um pouco de tudo dentro do JavaScript.
+    Aprendemos nessa disciplina assuntos como: <samp>HTML, CSS, Bootstrap</samp>.
 </p>
 
 ### Desafio 01 - Puro CSS
 
 <p>
-    Nesse projeto 01, utilizamos alguns módulos do NodeJS, <samp>FS, PATH, EVENTS e o método SETINTERVAL.</samp> Fizemos uma aplicação que mostra as estatísticas da memória livre, memória total e o percentual da memória utilizada.  
+    Nesse Desafio 01, utilizamos HTML para linguagem de marcação e CSS puro para estilizarmos a página que foi baseada no projeto 02, <samp>Meus Favoritos</samp>, da disciplina de programação avançada backend, onde adicionavamos o Nome do site e a URL, e era gerada uma lista dos nossos sites favoritos.  
 </p>
