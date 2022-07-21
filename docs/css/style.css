@@ -51,6 +51,64 @@ header .navbar{
     padding: 1rem 0.8rem;
 }
 
-#mainSlider{
+/* Sobre o CST System */
+#about-area {
+    background-color: #F9F9F9;
+}
 
+.main-title {
+    color: #414141;
+    font-size: 40px;
+    margin-bottom: 65px;
+    text-align: center;    
+}
+
+.line-title{
+    border-bottom: 2px solid #333;
+    width: 10%;
+    left: 45%;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.about-title{
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color: rgb(10, 199, 10);
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/* Serviços */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h3{
+    color:rgb(10, 199, 10);
+}
+
+.service-box i, .service-box h3 {
+    transition: .2s;
 }
